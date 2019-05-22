@@ -60,6 +60,7 @@ def create_points_at(startpoint,
 
     length = geom.length()
 
+    # Set a limit to endpoint
     if length < endpoint:
         endpoint = length
 
